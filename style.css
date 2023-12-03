@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Pahawh+Hmong&family=Outfit:wght@100;300;400;500;600;700&display=swap');
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0;
+background-color: #282828;
+min-height: 100vh;
+}
+
+.main {
+    width: 1440px;
+    height: 900px;
+    background-color: #0d1a2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 595px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #15273f;
+    border-radius: 15px;  
+    box-shadow: -1px 15px 20px 20px #0c1728;  
+}
+
+.contenair {
+  height: 616x;  
+  width: 387px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 12px 20px 18px #0c192c;
+  border-radius: 20px;
+}
+
+.paragraph2 {
+position: relative;
+color: #93aac9;
+width: 302px;
+font-family: "outfit";
+font-size: 112%;
+font-weight: 300;
+margin: 0;
+line-height: 26px;
+top: 1.5px;
+letter-spacing: 0.09px;
+}
+
+.title {
+    position: relative;
+    right: 1px;
+    color: white;
+    font-family: "Outfit";
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;   
+}
+
+.h2 {
+    position: relative;
+   top: 7px;
+   left: 1px;
+   letter-spacing: 0.3px; 
+}
+
+.clock {
+    position: relative;
+    left: 33px;
+    top: 0.5px;
+}
+
+.span {
+    position: relative;
+    right: 35px;
+    letter-spacing: 0.2px;
+    color: #15ffff;
+    font-family: "outfit";
+    font-weight: 600;
+}
+
+.span2 {
+    position: relative;
+    right: 2px;
+    color: #596f96;
+    font-family: "outfit";
+    font-weight: 600;
+}
+
+.span3 {
+    position: relative;
+    right: 31px;
+    bottom: 1px;
+    color: #596f96;
+    font-family: "outfit";
+    font-weight: 600;
+}
+
+.span4 {
+    color: white;
+    position: relative;
+    right: 73px;
+    bottom: 1px;
+    letter-spacing: 0.1px;
+    font-family: "outfit";
+    font-weight: 400;  
+}
+
+.span5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    position: relative;
+    top: 4px;
+    color: #2f4159;   
+}
+
+.hr {
+    width: 302px;
+}
+
+.img {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 31px;
+    width: 31px;  
+}
+
+.img2 {
+    display: flex;
+    justify-content: center;   
+    position: relative;
+    top: 5px;
+}
+
+.img3 {
+   border-radius: 8px;
+}
+.avatar {
+    position: relative;
+    bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 302px;
+    margin: 0 0 10px 0;
+}
+
+hr {
+    width: 302px;
+    margin: 0;
+}
+
+h2 {
+    width: 302px;
+}
+
+.icon {
+    position: relative;
+    top: 3px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0;
+}
+
+.gap {
+    gap: 22px;
+    display: flex;
+    flex-direction: column;
+}
